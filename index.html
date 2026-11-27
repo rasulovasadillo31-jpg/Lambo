@@ -1,0 +1,269 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lamborghini | Feel the Power</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-dark fixed-top main-navbar">
+  <div class="container-fluid px-lg-5">
+
+    <a class="navbar-brand" href="#">
+      <div class="logo">
+        <span>◆</span>
+        <strong>LAMBORGHINI</strong>
+      </div>
+    </a>
+
+    <div class="desktop-menu d-none d-lg-flex">
+      <a href="#models">MODELS</a>
+      <a href="#brand">BRAND</a>
+      <a href="#ownership">OWNERSHIP</a>
+      <a href="#motorsport">MOTORSPORT</a>
+    </div>
+
+    <div class="nav-right">
+      <a href="#news" class="d-none d-lg-inline">DEALERSHIPS</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+        <span></span><span></span>
+      </button>
+    </div>
+
+  </div>
+</nav>
+
+<!-- FULLSCREEN MENU -->
+<div class="fullscreen-menu" id="fullscreenMenu">
+  <button class="close-menu" id="closeMenu">✕</button>
+  <div class="menu-content">
+    <a href="#models">Models</a>
+    <a href="#brand">Brand</a>
+    <a href="#ownership">Ownership</a>
+    <a href="#motorsport">Motorsport</a>
+    <a href="#news">News</a>
+    <a href="#footer">Contact</a>
+  </div>
+</div>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="hero-overlay"></div>
+
+  <div class="hero-content container-fluid">
+    <p class="hero-subtitle reveal">UNFILTERED PERFORMANCE</p>
+    <h1 class="hero-title reveal">TEMERARIO</h1>
+    <p class="hero-description reveal">
+      Dare to experience a new dimension of performance.
+    </p>
+    <a href="#models" class="outline-btn reveal">DISCOVER MORE <span>↗</span></a>
+  </div>
+
+  <div class="hero-bottom">
+    <span>01 / 03</span>
+    <span>SCROLL TO EXPLORE ↓</span>
+  </div>
+</header>
+
+<!-- MODELS -->
+<section class="models-section" id="models">
+  <div class="container-fluid px-lg-5">
+
+    <div class="section-heading">
+      <p>OUR MODELS</p>
+      <h2>EXPLORE THE<br>WORLD OF LAMBORGHINI</h2>
+    </div>
+
+    <div class="model-tabs">
+      <button class="model-tab active" data-model="temerario">TEMERARIO</button>
+      <button class="model-tab" data-model="revuelto">REVUELTO</button>
+      <button class="model-tab" data-model="urus">URUS</button>
+    </div>
+
+    <div class="model-showcase" id="modelShowcase">
+      <div class="model-info">
+        <p class="model-category">UNFILTERED PERFORMANCE</p>
+        <h2 id="modelName">TEMERARIO</h2>
+        <p id="modelDescription">
+          The next generation of Lamborghini super sports cars.
+        </p>
+        <a href="#news" class="dark-btn">EXPLORE THE MODEL ↗</a>
+      </div>
+
+      <div class="model-image">
+        <img id="modelImage"
+          src="https://images.unsplash.com/photo-1544636331-e26879cd4d9b?auto=format&fit=crop&w=1800&q=90"
+          alt="Lamborghini sports car">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FULL WIDTH BANNER -->
+<section class="banner-section" id="brand">
+  <div class="banner-overlay"></div>
+  <div class="banner-content">
+    <p>THE WORLD OF LAMBORGHINI</p>
+    <h2>BEYOND<br>THE LIMIT</h2>
+    <a href="#ownership" class="outline-btn">DISCOVER MORE ↗</a>
+  </div>
+</section>
+
+<!-- CAROUSEL -->
+<section class="featured-section" id="ownership">
+  <div class="container-fluid px-lg-5">
+
+    <div class="featured-header">
+      <div>
+        <p>DISCOVER MORE</p>
+        <h2>THE LAMBORGHINI<br>EXPERIENCE</h2>
+      </div>
+
+      <div class="carousel-controls">
+        <button id="prevSlide" aria-label="Previous slide">←</button>
+        <button id="nextSlide" aria-label="Next slide">→</button>
+      </div>
+    </div>
+
+    <div class="carousel-track-wrapper">
+      <div class="carousel-track" id="carouselTrack">
+
+        <article class="feature-card">
+          <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1000&q=85" alt="Luxury car">
+          <div class="feature-text">
+            <p>01 / EXPERIENCE</p>
+            <h3>AD PERSONAM</h3>
+            <a href="#news">DISCOVER MORE ↗</a>
+          </div>
+        </article>
+
+        <article class="feature-card">
+          <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1000&q=85" alt="Sports car">
+          <div class="feature-text">
+            <p>02 / INNOVATION</p>
+            <h3>TECHNOLOGY</h3>
+            <a href="#news">DISCOVER MORE ↗</a>
+          </div>
+        </article>
+
+        <article class="feature-card">
+          <img src="https://images.unsplash.com/photo-1504215680853-026ed2a45def?auto=format&fit=crop&w=1000&q=85" alt="Automotive design">
+          <div class="feature-text">
+            <p>03 / HERITAGE</p>
+            <h3>OUR HISTORY</h3>
+            <a href="#news">DISCOVER MORE ↗</a>
+          </div>
+        </article>
+
+        <article class="feature-card">
+          <img src="https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=1000&q=85" alt="Luxury automobile">
+          <div class="feature-text">
+            <p>04 / MOTORSPORT</p>
+            <h3>RACING SPIRIT</h3>
+            <a href="#motorsport">DISCOVER MORE ↗</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MOTORSPORT -->
+<section class="motorsport-section" id="motorsport">
+  <div class="motorsport-bg"></div>
+  <div class="motorsport-content">
+    <p>RACING DNA</p>
+    <h2>BUILT TO<br>DOMINATE</h2>
+    <a href="#news" class="outline-btn">EXPLORE MOTORSPORT ↗</a>
+  </div>
+</section>
+
+<!-- NEWS -->
+<section class="news-section" id="news">
+  <div class="container-fluid px-lg-5">
+    <div class="news-heading">
+      <div>
+        <p>KEEP UP TO DATE</p>
+        <h2>LAMBORGHINI<br>WORLD</h2>
+      </div>
+      <a href="https://www.lamborghini.com/en-en/newsroom" target="_blank" class="dark-btn">ALL NEWS ↗</a>
+    </div>
+
+    <div class="row g-4">
+      <div class="col-lg-7">
+        <article class="news-card news-large">
+          <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1500&q=85" alt="Automotive news">
+          <div class="news-card-content">
+            <p>NEWS / AUTOMOTIVE</p>
+            <h3>THE FUTURE OF AUTOMOTIVE PERFORMANCE</h3>
+            <a href="https://www.lamborghini.com/en-en/newsroom" target="_blank">READ MORE ↗</a>
+          </div>
+        </article>
+      </div>
+
+      <div class="col-lg-5">
+        <article class="news-card news-small">
+          <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1000&q=85" alt="Lamborghini lifestyle">
+          <div class="news-card-content">
+            <p>EVENTS / LIFESTYLE</p>
+            <h3>EXPERIENCE THE EXTRAORDINARY</h3>
+            <a href="https://www.lamborghini.com/en-en/newsroom" target="_blank">READ MORE ↗</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer id="footer">
+  <div class="container-fluid px-lg-5">
+
+    <div class="footer-top">
+      <div class="footer-logo">
+        <span>◆</span>
+        <h3>LAMBORGHINI</h3>
+      </div>
+      <a href="#" class="back-top">BACK TO TOP ↑</a>
+    </div>
+
+    <div class="footer-links">
+      <a href="#models">Models</a>
+      <a href="#brand">Brand</a>
+      <a href="#ownership">Ownership</a>
+      <a href="#motorsport">Motorsport</a>
+      <a href="#news">News</a>
+      <a href="#footer">Contact</a>
+    </div>
+
+    <div class="social-links">
+      <a href="https://www.instagram.com/lamborghini/" target="_blank">INSTAGRAM</a>
+      <a href="https://www.facebook.com/Lamborghini/" target="_blank">FACEBOOK</a>
+      <a href="https://www.youtube.com/@Lamborghini" target="_blank">YOUTUBE</a>
+    </div>
+
+    <div class="footer-bottom">
+      <p>
+        Copyright © 2026 Automobili Lamborghini S.p.A.
+        All rights reserved.
+      </p>
+      <p>PRIVACY & LEGAL　 COOKIE SETTINGS　 SITEMAP</p>
+    </div>
+
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
